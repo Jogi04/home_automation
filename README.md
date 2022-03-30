@@ -22,7 +22,7 @@ Create a directory in /var/www/ :
 mkdir /var/www/<name_of_web_page>
 ```
 
-Copy all repo files into /var/www/<name_of_web_page>/ and make sure their owner is www-data:
+Copy the project files into /var/www/<name_of_web_page>/ and make sure their owner is www-data:
 ```bash
 chown -R www-data:www-data /var/www/<name_of_web_page>/
 ```
