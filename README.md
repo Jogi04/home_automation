@@ -16,7 +16,7 @@ Create a new .conf file for this web page and enable it:
 a2ensite /etc/apache2/sites-available/<name_of_web_page>.conf
 ```
 
-### Setup files
+### Files setup
 Create a directory in /var/www/ :
 ```bash
 mkdir <name_of_web_page>
