@@ -19,10 +19,10 @@ a2ensite /etc/apache2/sites-available/<name_of_web_page>.conf
 ### Files setup
 Create a directory in /var/www/ :
 ```bash
-mkdir <name_of_web_page>
+mkdir /var/www/<name_of_web_page>
 ```
 
-Copy all repo files into /var/www/<name_of_web_page>/ and make sure their owner is www-data :
+Copy all repo files into /var/www/<name_of_web_page>/ and make sure their owner is www-data:
 ```bash
 chown -R www-data:www-data /var/www/<name_of_web_page>/
 ```
