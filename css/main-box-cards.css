@@ -1,0 +1,33 @@
+.main-box-card-container {
+  box-shadow: 0 0 8px grey;
+  margin: 10px;
+  border-radius: 6px;
+  width: 490px;
+}
+
+.main-box-card {
+  margin: 20px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header-edit-icon {
+  width: 25px;
+  cursor: pointer;
+}
+
+.card-content {
+  margin-top: 10px;
+}
+
+.card-content-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 40px;
+  margin: 2px;
+}

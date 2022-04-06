@@ -1,0 +1,25 @@
+#top-bar {
+  position: fixed;
+  width: calc(100% - var(--side-navbar-width));
+  margin-left: var(--side-navbar-width);
+  background-color: var(--primary-color);
+  padding: calc(20px + 1px);
+  transition: 0.5s;
+}
+
+#top-bar.to-left {
+  margin-left: var(--side-navbar-width-small);
+  width: calc(100% - var(--side-navbar-width-small));
+}
+
+#top-bar-title {
+  color: white;
+}
+
+/* media query for small screen to collapse side navbar */
+@media only screen and (max-width: 600px) {
+  #top-bar {
+    margin-left: var(--side-navbar-width-small);
+    width: calc(100% - var(--side-navbar-width-small));
+  }
+}

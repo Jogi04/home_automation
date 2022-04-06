@@ -1,0 +1,23 @@
+#main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: calc(100% - var(--side-navbar-width) - 1px);
+  margin-left: calc(var(--side-navbar-width) + 1px);
+  padding-top: 76px;
+  transition: 0.5s;
+}
+
+#main-box.to-left {
+  margin-left: calc(var(--side-navbar-width-small) + 1px);
+  width: calc(100% - var(--side-navbar-width-small) - 1px);
+}
+
+/* media query for small screen to collapse side navbar */
+@media only screen and (max-width: 600px) {
+  #main-box {
+    margin-left: var(--side-navbar-width-small);
+    width: calc(100% - var(--side-navbar-width-small));
+  }
+}

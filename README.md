@@ -6,6 +6,11 @@ Install the required web server and PHP packages:
 apt install apache2 php libapache2-mod-php
 ```
 
+Enable php sockets by commenting out the following line in /etc/php/php.ini:
+```bash
+;extension=sockets
+```
+
 Disable default page:
 ```bash
 a2dissite /etc/apache2/sites-available/000-default.conf
