@@ -1,3 +1,8 @@
+## Description
+A central web page for home automation.
+
+---
+
 ## Deployment
 
 ### Web server setup
