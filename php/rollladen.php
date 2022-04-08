@@ -10,7 +10,7 @@
       <div class="main-box-card">
         <div class="card-header">
           <span class="title">Rollladen</span>
-          <span><img class="card-header-edit-icon" src="/icons/edit.png"></span>
+          <span><img class="card-header-edit-icon" src="/images/edit.png"></span>
         </div>
         <div class="card-content">
         <?php
